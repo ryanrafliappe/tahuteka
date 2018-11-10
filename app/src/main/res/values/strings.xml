@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">bottomnavigation</string>
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+    <string name="homes">home</string>
+    <string name="saldo">SALDO</string>
+    <string name="nama_bahan">nama bahan</string>
+    <string name="keterangan_bahan">keterangan bahan</string>
+    <string name="edit">Edit</string>
+    <string name="hapus">Hapus</string>
+    <string name="tambah_bahan">+ Tambah Bahan</string>
+</resources>

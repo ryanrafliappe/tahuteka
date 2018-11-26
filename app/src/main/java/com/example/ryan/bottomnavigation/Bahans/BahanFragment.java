@@ -63,6 +63,10 @@ public class BahanFragment extends Fragment {
         bahanList.add(new Bahan(R.drawable.tauge, "Tauge", "100 gram", "10000"));
         bahanList.add(new Bahan(R.drawable.kacang, "Kacang Tanah", "1 liter", "15000"));
         bahanList.add(new Bahan(R.drawable.krupuk, "Kerupuk", "1 bungkus", "25000"));
+        bahanList.add(new Bahan(R.drawable.tahuu, "Tahu", "50 biji", "35000"));
+        bahanList.add(new Bahan(R.drawable.tauge, "Tauge", "100 gram", "10000"));
+        bahanList.add(new Bahan(R.drawable.kacang, "Kacang Tanah", "1 liter", "15000"));
+        bahanList.add(new Bahan(R.drawable.krupuk, "Kerupuk", "1 bungkus", "25000"));
 
     }
 

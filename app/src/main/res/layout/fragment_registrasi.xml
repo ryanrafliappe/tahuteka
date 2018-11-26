@@ -5,12 +5,45 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tv_registrasi"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Registrasi"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        android:orientation="horizontal"
+        android:id="@+id/rl_regis">
+
+        <EditText
+            android:id="@+id/search_bahan"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/roundedstroke"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableRight="@drawable/ic_search_black_24dp" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/search_bahan"
+            android:text="Tambah Pengguna"
+            android:textColor="#fff"
+            android:background="@color/green"
+            android:id="@+id/btn_tambahuser"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_regis">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/regis_recyclerview">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </ScrollView>
 
 </RelativeLayout>

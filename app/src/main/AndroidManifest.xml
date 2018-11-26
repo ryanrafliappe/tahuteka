@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TambahBahanActivity" />
-        <activity android:name=".EditBahanActivity"></activity>
+        <activity android:name=".EditBahanActivity" />
+        <activity android:name=".TambahUserActivity"></activity>
     </application>
 
 </manifest>

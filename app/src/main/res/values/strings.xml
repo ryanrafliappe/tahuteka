@@ -12,4 +12,7 @@
     <string name="edit">Edit</string>
     <string name="hapus">Hapus</string>
     <string name="tambah_bahan">+ Tambah Bahan</string>
+    
+    <string name="open">open</string>
+    <string name="close">close</string>
 </resources>

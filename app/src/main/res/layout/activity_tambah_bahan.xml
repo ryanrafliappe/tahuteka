@@ -4,16 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TambahBahanActivity">
+    tools:context=".admin.Bahans.TambahBahanActivity">
 
-    <RelativeLayout
+    <FrameLayout
         android:id="@+id/upbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <include layout="@layout/upbar_back"/>
+        <Button
+            android:id="@+id/btn_back"
+            android:onClick="back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_back"/>
 
-    </RelativeLayout>
+        <ImageView
+            android:layout_below="@id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"/>
+
+    </FrameLayout>
 
     <ScrollView
         android:layout_below="@id/upbar"
